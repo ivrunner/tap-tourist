@@ -24,7 +24,7 @@ const IndexPage = props => (
         alt="Bar Picture"
       />
     </div>
-    <div className="text-center sm:w-full absolute pin p-30">
+    <div className="text-center sm:w-full absolute pin">
       <img
         src={ttLogo}
         className="block mx-auto sm:w-full md:w-1/2"
@@ -38,7 +38,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "splashbeer.jpg" }) {
+    imageOne: file(relativePath: { eq: "splashpouring.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1200) {
           ...GatsbyImageSharpFluid
