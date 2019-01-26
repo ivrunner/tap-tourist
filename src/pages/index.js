@@ -24,7 +24,7 @@ const IndexPage = props => (
         alt="Bar Picture"
       />
     </div>
-    <div className="text-center sm:w-full absolute pin">
+    <div className="text-center sm:w-full relative pin">
       <img
         src={ttLogo}
         className="block mx-auto w-5/6 md:w-1/2"
