@@ -27,7 +27,7 @@ const IndexPage = props => (
     <div className="text-center sm:w-full absolute pin">
       <img
         src={ttLogo}
-        className="block mx-auto sm:w-full md:w-1/2"
+        className="block mx-auto w-5/6 md:w-1/2"
         alt="Tap Tourist Logo"
       />
     </div>
