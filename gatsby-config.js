@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Tap Tourist`,
-    description: `Tap Tourist Mobile Beverage Co`,
+    description: `Tap Tourist Mobile Beverage Co Fort Wayne, Indiana`,
     author: `Rich Matney`
   },
   plugins: [

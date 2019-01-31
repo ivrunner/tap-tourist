@@ -8,7 +8,18 @@ import ttLogo from "../images/tt-logo.svg";
 
 const IndexPage = props => (
   <Layout>
-    <SEO title="Home" keywords={[`tap`, `tourist`, `beverage`, `weddings`]} />
+    <SEO
+      title="Home"
+      keywords={[
+        `tap`,
+        `tourist`,
+        `beverage`,
+        `weddings`,
+        `fort`,
+        `wayne`,
+        `indiana`
+      ]}
+    />
 
     <div className="text-center sm:w-full">
       <Img
